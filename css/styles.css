@@ -536,7 +536,9 @@ blockquote footer {
 /*5.6_Footer*/
 .footer {
     position: relative;
-    background: url(../images/IMG_20181209_140918.jpg) #000 fixed center;
+    background: url(../images/IMG_20181209_140918.jpg);
+	background-attachment: fixed;
+	background-position: center;
     background-size: cover;
     clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0 100%);
     color: #fff;
