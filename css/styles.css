@@ -353,7 +353,7 @@ header .dropdown-submenu.pull-left>.dropdown-menu {
 	position: relative;
 	width: 100%;
 	height: 120vh;
-	background: #000 url(../images/IMG_20181209_142504.jpg) fixed center;
+	background: url(../images/IMG_20181209_142504.jpg) #000 fixed center;
     background-size: cover;
 	margin-top: -170px;
 	clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 5vw), 0% 100% );
@@ -536,7 +536,7 @@ blockquote footer {
 /*5.6_Footer*/
 .footer {
     position: relative;
-    background: #000 url(../images/IMG_20181209_140918.jpg) fixed center;
+    background: url(../images/IMG_20181209_140918.jpg) #000 fixed center;
     background-size: cover;
     clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0 100%);
     color: #fff;
