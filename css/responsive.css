@@ -100,7 +100,9 @@
 
 	/*END Menu Mobile*/
 
-
+	.banner {
+		background-attachment: scroll !important;
+	}
 	h3.nameCitySub {
 		width: 100%;
 		text-align: center;
