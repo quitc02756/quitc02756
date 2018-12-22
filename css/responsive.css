@@ -44,20 +44,6 @@
 	.menuMobile--right >ul >li {
 		margin-right: 10px;
 	}
-	.menuMobile--right form input {
-		width: 80px;
-		padding-right: 10px;
-		background: none;
-		border: none;
-		border-bottom: 1px solid #ccc;
-		color: #ccc;
-	}
-	.menuMobile--right form button {
-		background: none;
-		border: none;
-		border-bottom: 1px solid #ccc;
-		color: #ccc;
-	}
 	.main.clearfix {
 	    position: fixed;
 	    top: 2px;

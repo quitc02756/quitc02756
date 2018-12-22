@@ -1,50 +1,24 @@
-// if($(".custom1").length!=0){
-//     jQuery(document).ready(function($) {
-//       $('.fadeOut').owlCarousel({
-//         items: 1,
-//         animateOut: 'fadeOut',
-//         loop: true,
-//         margin: 10,
-//         autoplay: true,
-//         autoplayTimeout: 3000,
-//       });
-//       $('.custom1').owlCarousel({
-//         animateOut: 'slideOutDown',
-//         animateIn: 'flipInX',
-//         items: 1,
-//         margin: 30,
-//         stagePadding: 30,
-//         smartSpeed: 450
-//       });
-//     });
-// }
+$(function() {
+	$( '#dl-menu' ).dlmenu({
+		animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+	});
+});
 
-// /* Menu Mobile */
-// $(function() {
-//   $('nav#menu').mmenu({
-//     extensions  : [ 'effect-slide-menu', 'pageshadow' ],
-//     searchfield : false,
-//     counters  : false,
-//     navbar    : {
-//       title   : 'Danh mục menu'
-//     },
-//     navbars   : [
-//       {
-//         position  : 'top',
-//         content   : [ 'searchfield' ]
-//       }, {
-//         position  : 'top',
-//         content   : [
-//           'prev',
-//           'title',
-//           'close'
-//         ]
-//       }, {
-//         position  : 'bottom',
-//         content   : [ 
-//         ]
-//       }
-//     ]
-//   });
-// });
-// /* End Menu Mobile */
+if($(".owl-carousel").length!=0){
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:false,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:4
+	        }
+	    }
+	})
+}
