@@ -52,6 +52,20 @@
 	.dl-menuwrapper:first-child {
 	    margin-right: 100vw;
 	}
+	form.searchForm input {
+	    width: 80px;
+	    padding-right: 10px;
+	    background: none;
+	    border: none;
+	    border-bottom: 1px solid #ccc;
+	    color: #ccc;
+	}
+	form.searchForm button {
+	    background: none;
+	    border: none;
+	    border-bottom: 1px solid #ccc;
+	    color: #ccc;
+	}
 	.dl-menuwrapper button, .dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active {
 	    background: none;
 	    color: #ccc;

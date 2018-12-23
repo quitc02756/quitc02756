@@ -17,7 +17,7 @@ if($(".owl-carousel").length!=0){
 	            items:3
 	        },
 	        1000:{
-	            items:4
+	            items:3
 	        }
 	    }
 	})
